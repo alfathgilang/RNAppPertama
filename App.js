@@ -70,9 +70,8 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
+          <Section title="Hello World">
+            Ini adalah perubahan pertama yang saya lakukan dalam App Pertama ini
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
